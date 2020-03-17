@@ -62,6 +62,7 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+@media (min-width:1440px) {
 
 hr {
 	width:100%;
@@ -143,8 +144,8 @@ footer {
 .copyright{
 	margin-top:7%;
 	text-align:center;
+	}
 }
-/*media*/
 
 @media (min-width:800px) {
 nav {
@@ -165,10 +166,9 @@ nav {
     }
 .picture {
     display:none;
-}
+	}
 }
 
-@media (min-width:500px) {
     nav {
         display:flex;
         flex-wrap:wrap;
@@ -204,5 +204,5 @@ nav {
         width:100%;
         margin-bottom:10%;
     }
-}
+
 
